@@ -2,9 +2,9 @@
 #'
 #' This function says hello.
 #'
-#' @param name character
+#' @param name A character string
 #'
-#' @return character
+#' @return A character string that goes something like: "hello, ___"
 #' @export
 #'
 #' @examples
