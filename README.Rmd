@@ -29,7 +29,7 @@ devtools::install_github("nayefahmad/foofactors2")
 ```
 ## Example
 
-This is a basic example which shows you how to solve a common problem:
+This is a basic example which shows you how how one of the functions works:
 
 ```{r example}
 library(foofactors2)
@@ -39,3 +39,9 @@ hello_function("Gandalf the Grey")
 
 ```
 
+## Notes on the process of creating this package 
+
+### Git problems 
+When using `usethis::use_github`, by default, your `.git` folder will have a file named `pre-commit` in it. This tells git to do the checks specified there before you can commit anything. Unfortunately, this seems to create problems with using RStudio or GitHub desktop to commit/push. You will have to use git bash with command `git commit --no-verify`. There's no way to specify this command in GUIs. 
+
+To get around this, simple add `.sample` at the end of the filename: `pre-commit.sample`. Now it will be ignored by GitHub. 
