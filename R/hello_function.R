@@ -4,7 +4,7 @@
 #'
 #' @param name A character string
 #'
-#' @return A character string that goes something like: "hello, ___"
+#' @return A character string that goes something like: "hello, ___".
 #' @export
 #'
 #' @examples
