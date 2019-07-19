@@ -11,5 +11,7 @@
 #' hello_function("Bond, James Bond")
 hello_function <- function(name){
 
+    name <- as.character(name)
+
     paste("hello", name)
 }
